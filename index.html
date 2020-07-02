@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>To Do</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    </head>
+    <body class="p-3 mb-2 bg-primary text-white">
+        <h1>Things to do</h1>
+        <h2>To add something type it and enter</h2>
+        <h2>To mark it done click on it</h2>
+        <h2>it will be removed if you click it the second time</h2>
+        
+        <form id="frm">
+            <input type="text" class="text" placeholder="New TODO"><br>
+            <input name="color" list="colors" placeholder="Select Color" id="color">
+            <datalist id="colors">
+                <option value="blue">
+                <option value="black">
+                <option value="green">
+                <option value="yellow">  
+                <option value="Orange">  
+                <option value="Maroon">
+                <option value="Red">
+                <option value="Aqua">
+                 <option value="Lime">
+                    
+
+            </datalist>
+            </input><br>
+            <input type="submit" name="add" value="add" id="submit">
+            </form>
+        <ul class="todos card p-3 mb-2 bg-primary text-white">
+        </ul>
+        <div><script src="script.js"></script></div>
+    </body>
+</html>
