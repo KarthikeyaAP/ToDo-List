@@ -21,6 +21,7 @@ form.addEventListener('submit',e=>{
        li.style.color='white';
    };
    list.append(li);
+   list.style.display='block'
    text.value=null;
    color.value=null;
    console.log(color.value)
