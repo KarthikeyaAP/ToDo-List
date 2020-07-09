@@ -2,14 +2,14 @@
     background-color: #352f5b;
 }
 .todos li{
-    min-width: 400px;
+    min-width:20%;
     text-align: center;
     background-color: #423a6f;
     display: flex;
     justify-content: space-between;
 }
 input[type='text']{
-    width: 500px;
+    width: 30%;
 }
 .hidden{
     display: none !important ;
