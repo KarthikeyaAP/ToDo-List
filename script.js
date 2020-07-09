@@ -9,7 +9,7 @@ const ini=document.querySelector('#initial');
 
 const addTodo = todo => {
     const html=`
-    <li class="list-group-item text-center text-light mx-20  justify-content-between align-items-center position-sticky align-middle">
+    <li class="list-group-item text-center text-light mx-20 px-30 justify-content-between align-items-center position-sticky align-middle">
     <span>${todo}</span>
     <i class="fa fa-trash delete"></i>
     </li>
