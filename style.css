@@ -2,7 +2,7 @@
     background-color: #352f5b;
 }
 .todos li{
-    min-width:20%;
+    min-width: 20%;
     text-align: center;
     background-color: #423a6f;
     display: flex;
